@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(1, 19, 34);
     color: white;
@@ -68,10 +71,10 @@ header .title a {
 }
 
 .container_head .info .name {
-    padding: 60px 0 60px 0;
+    padding: 40px 0 40px 0;
     font-family: 'Raleway';
     color: orange;
-    font-size: 100px;
+    font-size: 70px;
 }
 .container_head .info button {
     margin: 30px 10px 10px 0;
@@ -109,7 +112,7 @@ header .title a {
     border: 5px solid orange;
 }
 .container_about {
-    padding: 10% 30px 0 15%;
+padding: 10% 30px 0 15%;
     line-height: 2.2rem;
 }
 .container_about  h1,.container_projects h1{
@@ -168,10 +171,15 @@ header .title a {
         /* padding: 0 0 15px 0; */
         /* margin: 10px 0 60px 0; */
     }
-    @media screen and (min-width: 500px) {
+    @media screen and (max-width: 700px) {
         .container_about { 
-            padding: 0;
-            margin: 0;
+            padding: 20px;
+            margin: 10px;
         }
-        
-    }
+        .container_head .info {
+            width: 100%;
+        }
+        /*.container_head .info .name {
+            font-size: 10px;
+        }
+*/    }
