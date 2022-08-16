@@ -108,3 +108,70 @@ header .title a {
     padding: 20px;
     border: 5px solid orange;
 }
+.container_about {
+    padding: 10% 30px 0 15%;
+    line-height: 2.2rem;
+}
+.container_about  h1,.container_projects h1{
+    font-family: 'Raleway';
+    font-size: 50px;
+    padding: 0 0 15px 0;
+    margin: 10px 0 60px 0;
+    border-bottom: 1px solid orange;
+    width: 300px;
+    /* border-spacing: 1; */
+}
+.num {
+    font-size: 30px;
+    color: orange;
+    }
+    .grey {
+        color: grey;font-family: 'Poppins';
+        font-size: 20px;
+    }
+
+    .container_about h3 {
+        font-family: 'Poppins';
+       
+    }
+    .container_about .about {
+        font-family: 'Poppins';
+        font-size: 20px;
+        color: gray;
+    }
+
+    .container_about .personalStuff {
+        margin-left: 20px;
+        color: grey;
+        font-family: 'Poppins';
+        font-size: 20px;
+        line-height: 60px;
+    }
+    .container_about .personalStuff {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .svg {
+        width: 600px;
+        height: 400px;
+    }
+    .container_about .personalStuff .info ol {
+        list-style-type: '➡ ';
+    }
+    .container_projects h1 {
+        width: 350px;
+    }
+    .container_projects {
+        margin: 300px 0 0 150px;
+        /* padding: 0 0 15px 0; */
+        /* margin: 10px 0 60px 0; */
+    }
+    @media screen and (min-width: 500px) {
+        .container_about { 
+            padding: 0;
+            margin: 0;
+        }
+        
+    }
