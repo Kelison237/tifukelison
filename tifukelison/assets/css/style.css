@@ -171,7 +171,7 @@ padding: 10% 30px 0 15%;
     }
     @media screen and (max-width: 700px) {
         .container_about,.container_projects { 
-            padding: 20px;
+            padding: 5px;
             margin: 10px;
         }
         .container_head .info {
@@ -282,4 +282,16 @@ padding: 10% 30px 0 15%;
             align-items: center;
             justify-content: center;
             }
+            .container_head {
+                margin: 0px;
+                padding: 5px;
+            }
+              .container_head .info .name {
+                font-size: 60px;
+                line-height: 1.0rem;
+              }
+              .container_head .profile img {
+                width: 300px;
+                margin-top: 30px;
+              }
         }
