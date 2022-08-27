@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(1, 19, 34);
+    color: white;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(1, 16, 31);
+    box-shadow: 0 5px 10px rgb(1, 10, 19);
+
+}
+header .title a {
+    text-decoration: none;
+    color: orange;
+    font-family: 'Raleway';
+    padding: 10px;
+    font-weight: 700;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav p {
+    margin: 12px;
+}
+.nav p span {
+    color: orange;
+    padding: 5px;
+    font-size: 15px;
+}
+.nav p a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    /* font-size: 20px; */
+    font-family: 'Raleway';
+
+}
+.nav p a:hover {
+    transition: 1s;
+    
+    border-bottom: 2px solid orange;
+}
+.container_head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.container_head .info {
+    font-family: 'Poppins', sans-serif;
+    
+        font-size: 20px;
+        width: 40%;
+        line-height: 2.2rem;
+}
+
+.container_head .info .name {
+    padding: 40px 0 40px 0;
+    font-family: 'Poppins';
+    color: orange;
+    font-size: 70px;
+}
+.container_head .info button {
+    margin: 30px 10px 10px 0;
+    /* padding: 10px; */
+    font-size: 20px;
+    background-color: transparent;
+   border: none;
+    font-family: 'Poppins';
+}
+.container_head .info button a:hover {
+    /* background-color: orange; */
+    border: 2px solid white;
+    
+}
+.container_head .info button a:active {
+    transition: 0.1s;
+    padding: 9px;
+    color:white;
+    background-color: orange;
+
+}
+.container_head .info button a {
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+     border: 2px solid orange;
+
+}
+
+.container_head .profile img {
+    border-radius: 50%;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    border: 5px solid orange;
+}
+.container_about {
+padding: 10% 30px 0 15%;
+    line-height: 2.2rem;
+}
+.container_about  h1,.container_projects h1{
+    font-family: 'Raleway';
+    font-size: 50px;
+    padding: 0 0 15px 0;
+    margin: 10px 0 60px 0;
+    border-bottom: 1px solid orange;
+    width: 300px;
+    /* border-spacing: 1; */
+}
+.num {
+    font-size: 30px;
+    color: orange;
+    }
+    .grey {
+        color: grey;font-family: 'Poppins';
+        font-size: 20px;
+    }
+
+    .container_about h3 {
+        font-family: 'Poppins';
+       
+    }
+    .container_about .about {
+        font-family: 'Poppins';
+        font-size: 20px;
+        color: gray;
+    }
+
+    .container_about .personalStuff {
+        margin-left: 20px;
+        color: grey;
+        font-family: 'Poppins';
+        font-size: 20px;
+        line-height: 60px;
+    }
+    .container_about .personalStuff {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .svg {
+        width: 600px;
+        height: 400px;
+    }
+    .container_about .personalStuff .info ol {
+        list-style-type: '➡ ';
+    }
+    .container_projects h1 {
+        width: 350px;
+    }
+    .container_projects {
+        padding: 10% 30px 0 15%;
+    }
+    @media screen and (max-width: 700px) {
+        .container_about,.container_projects { 
+            padding: 5px;
+            margin: 10px;
+        }
+        .container_head .info {
+            width: 100%;
+        }
+        /*.container_head .info .name {
+            font-size: 10px;
+        }
+*/    }
+
+
+        .github svg {
+            width: 20px;
+            color: white;
+            margin: 10px;
+        }
+        .profile {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .contactLinks ul li {
+            width: 20px;
+            display: inline-block;
+            list-style-type: none;
+            margin: 10px;
+            height: 20px;
+        }
+
+        .cards {
+            margin: auto;
+            display: flex;
+            align-items: center;
+
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card_design, .card_code {
+            width: 300px;
+            border-radius: 5px;
+            color: black;
+            background-color: white;
+            /* padding: 10px; */
+            height: auto;
+            margin: 10px;
+
+            font-family: 'Poppins';
+            text-align: center;
+            padding: 20px;
+        }
+        .cards button {
+          padding: 10px;
+          margin-top: 40px;
+          border: none;
+          background-color: rgb(1, 10, 19);
+          border-radius: 4px;
+        }
+        .cards button a {
+            text-decoration: none;
+            color: orange;
+            font-family: 'Poppins';
+            
+        }
+        .cards button:active {
+            background-color: orange;
+            color: white;
+            
+        }
+       .contact_info {
+            font-family: 'Poppins';
+            line-height: 2.5rem;
+
+        }
+        .contact_info span a{
+            color: orange;
+            text-decoration: none;
+        }
+        .footer {
+            width: 100%;
+            height: 100px;
+            margin-top: 50px;
+            background-color: rgb(1, 10, 19);
+            box-shadow: 50px 10px 10px 10px  black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            font-family: 'Poppins';
+            line-height: 2.5rem;
+            font-weight: bolder;
+            color: orange;
+
+        }
+        .info li a {
+            text-decoration: none;
+            color: orange;
+        }
+        @media screen and (max-width: 500px) {
+            header .nav {
+                display: none;
+            
+            }
+            header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+            .container_head {
+                margin: 0px;
+                padding: 5px;
+            }
+              .container_head .info .name {
+                font-size: 60px;
+                line-height: 1.0rem;
+              }
+              .container_head .profile img {
+                width: 300px;
+                margin-top: 30px;
+              }
+        }
