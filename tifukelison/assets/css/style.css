@@ -177,9 +177,9 @@ padding: 10% 30px 0 15%;
         .container_head .info {
             width: 100%;
         }
-        /*.container_head .info .name {
-            font-size: 10px;
-        }
+     header {
+        width: 100%;
+     }
 */    }
 
 
